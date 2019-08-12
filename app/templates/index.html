@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyApp</title>
+	<link href="static/css/main.css" rel="stylesheet">
+</head>
+<body>
+	<h1>Hello, World!</h1>
+	<div class="container">
+      <p>{{err_msg}}</p>
+  
+      <p>My current users:</p>
+      <ul>
+        {% for n in users %}
+        <li>{{n}}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <script src="static/js/main.js"></script>
+    <script>
+    	test();
+    </script>
+</body>
+</html>
