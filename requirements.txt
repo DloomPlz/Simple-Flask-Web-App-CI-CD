@@ -15,7 +15,7 @@ marshmallow==2.15.6
 marshmallow-sqlalchemy==0.14.1
 more-itertools==4.3.0
 pluggy==0.8.0
-py==1.7.0
+py==1.10.0
 pycparser==2.19
 pytest==3.9.2
 python-dotenv==0.9.1
